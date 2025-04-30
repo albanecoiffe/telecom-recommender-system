@@ -1,5 +1,7 @@
 # 📡 Telecom Offer Recommender System
 
+[Streamlit page](https://telecom-recommender-system.streamlit.app/)     
+
 This project implements a recommender system for telecom products and services, designed to suggest the most relevant offers to customers based on their behavior, usage patterns, and churn history.
 
 The solution includes:
