@@ -19,7 +19,7 @@ This Streamlit app presents:
 @st.cache_data
 def load_data():
     s3_link='https://s3.amazonaws.com/projex.dezyre.com/recommender-system-for-telecom-products/materials/Telecom_data.csv'
-    df = pd.read_csv("processed_telecom_offer_data.csv")
+    df = pd.read_csv("https://www.dropbox.com/scl/fi/ck3cjqomhsk98u92etl58/processed_telecom_offer_data.csv?rlkey=m32cp8ew5ecewfegew5dkx6i0&st=17ks8qko&dl=1")
     df_boot = pd.read_csv("offer_recommendation_bootstrap.csv")
     df_noboot = pd.read_csv("offer_recommendation_without_bootstap.csv")
     return df, df_boot, df_noboot
